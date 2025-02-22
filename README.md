@@ -42,3 +42,5 @@ return {
  - [ ] More configuration!
  - [ ] Unit test
 
+# Contributions
+Any contribution is welcome! 
