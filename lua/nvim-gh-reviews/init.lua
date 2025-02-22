@@ -106,8 +106,11 @@ function M.get_pr_reviews()
 		else
 			vim.notify("Skipping missing file: " .. full_path, vim.log.levels.WARN)
 		end
-	end                        -- Set Quickfix List
+	end -- Set Quickfix List
 
+	vim.defer_fn(function()
+		vim.notify("Found. Total Comments: " .. #qflist, vim.log.levels.INFO)
+	end, 100)
 	vim.fn.setqflist(qflist, "r") -- "r" replaces the list
 	vim.cmd("copen")
 end
