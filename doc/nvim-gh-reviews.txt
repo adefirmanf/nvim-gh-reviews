@@ -26,9 +26,7 @@ Table of Contents                                *nvim-gh-reviews-table-of-conte
 >lua
     {
       'adefirmanf/nvim-gh-reviews',
-      config = function()
-        require('nvim-gh-reviews')
-      end
+      opts = {}
     }
 <
 
