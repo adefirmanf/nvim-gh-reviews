@@ -26,9 +26,8 @@ Table of Contents                                *nvim-gh-reviews-table-of-conte
 >lua
     {
       'adefirmanf/nvim-gh-reviews',
-      event = 'VimEnter',
       config = function()
-        require('nvim-gh-reviews').setup()
+        require('nvim-gh-reviews')
       end
     }
 <
