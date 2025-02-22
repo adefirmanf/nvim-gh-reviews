@@ -10,7 +10,10 @@ To use this plugin, switch to the branch where you got feedback or reviews from 
 open the quickfix list. 
 To close the quicklist, you can use `:cclose`.  
 
+**Nvim**
 ![Screen Recording 2025-02-22 at 20 43 42](https://github.com/user-attachments/assets/0152040f-b6b8-46d2-8542-90ee2238066e)
+
+Here the example of PR: https://github.com/adefirmanf/blog-v2/pull/1
 
 Be careful! This plugin will replace the existing quickfix list. If you're using quickfix for LSP or other integrations, running the command will likely overwrite it.
 
