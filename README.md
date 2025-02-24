@@ -41,9 +41,10 @@ return {
 
 # 🌃 Todo
  - [ ] Resolve and reply to the PR comments. 
- - [ ] Display the PR comments from the base PR.
- - [ ] More configuration!
- - [ ] Unit test
+ - [ ] Display the PR comments from the base PR. `In progress`
+ - [ ] More configuration! `In progress`
+ - [ ] Window integration. `In progress`
+ - [ ] Unit test.
 
 # Contributions
 Any contribution is welcome! 
